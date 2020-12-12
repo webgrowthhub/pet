@@ -1,0 +1,1065 @@
+body {
+    color:#000;
+    font-family: 'Georgia';
+}
+body p, body li, body span {
+    word-wrap: break-word;
+}
+.user-images {
+    display: flex;
+}
+
+.margin_top {
+    margin-top: 0px !important;
+}
+img.img-fluid.special_image {
+    margin-top: -136px;
+    margin-bottom: 26px;
+}
+p.special_content {
+    font-size: 13px;
+}
+
+.special-offer {
+    position: absolute;
+    right: 145px;
+}
+section.create-memories.section-text {
+    position: relative;
+}
+.view_videos .card-body h3 {
+    height: 31px;
+    font-size: 20px;
+    margin-bottom: 0;
+} 
+.m_view {
+    display: none;
+}
+/**------------ Blog pge --------***/
+.blog-table th:nth-child(5), .blog-table td:nth-child(5) {
+    min-width: 300px;
+}
+.blog-table td {
+      /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto; 
+}
+.blog-single textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    min-height: 500px;
+    max-height: 1000px;
+    height: 100%;
+}
+.blog-single textarea:focus {
+    outline: none;
+}
+.blogs-page textarea.card-text {
+    width: 100%;
+    min-height: 360px;
+}   
+.blog-single figure img {
+    height: 300px;
+    object-fit: cover;
+    max-width: 100%;
+}
+.inner-pages nav.main_menu {
+    margin: 0 !important;
+}
+.inner-pages footer.main-footer {
+    text-align: center;
+    display: block;
+    padding: 22px;
+}
+.inner-pages h2.card-title {
+    font-size: 24px;
+}
+.inner-pages-header h2 {
+    margin-top: 26px;
+    font-size: 64px !important;
+}
+.blogs-page a.btn.btn-primary {
+    background: #479796;
+    border: 1px solid;
+}
+.blogs-page a.btn.btn-primary:hover {
+    background: #000;
+}
+.blogs-page img.card-img-top {
+    height: 280px;
+    max-width: 100%;
+    object-fit: cover;
+}
+/**------------ Blog pge --------***/
+
+
+/*------- home page new section ------------*/
+.honourthepast .productssales {
+    max-height: 240px;
+    object-fit: contain;
+}
+.text-center.social-media {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 17px;
+}
+.text-center.social-media a {
+    color: #fff;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.text-center.social-media a:hover {
+    color: #449690;
+}
+.create-memories {
+    background: #fefefe url(../images/memories.png);
+    background-repeat: no-repeat;
+    background-size: 77%;
+    padding: 120px 0;
+    background-position: right bottom;
+    margin: 0px 0;
+} 
+.create-memories p {
+    font-size: 18px;
+    padding-right: 55px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+a.cta-btn {
+    /* background: #479796; */
+    background: #e2e22e;
+    color: #fff;
+    padding: 11px 26px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 13px;
+    line-height: 28px;
+    min-height: 56px;
+    margin-top: 13px;
+}
+
+a.cta-btn2 {
+    /* background: #479796; */
+    background: #e2e22e;
+    color: #fff;
+    
+}
+a.cta-btn:hover {
+    text-decoration: none;
+    background: black;
+}  
+
+.bg-green {
+    background-color: #479796;
+
+}
+.connect-family {
+    padding: 90px 0;
+    color: #fff;
+}
+
+.connect-family p {
+    margin-top: 25px;
+    font-size: 18px;
+    padding-right: 13px;
+}
+.build-legacy img {
+    max-width: 94%;
+}
+section.build-legacy {
+    padding: 67px 0;
+}       
+
+.section-title {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.section-text p {
+    font-size: 16px;
+    line-height: 22px;
+    word-break: break-word;
+}  
+.bg-green--light {
+    background: #c6e4e6;
+}
+.share-memories {
+    padding: 80px 0;
+}
+.heading--b h2 {
+    font-size: 64px;
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+.heading--b.blue-bg {
+    padding: 129px 0px;
+    margin-bottom: 0;
+}
+.search_section {
+    padding: 22px 0 30px !important;
+}   
+.honourthepast {
+    padding: 60px 0;
+}
+.honourthepast  .owl-carousel .col-12 {
+    padding: 0;
+}
+.products_row .column-5 img {
+    max-width: 100%;
+}
+.products_row .column-5 {
+    max-width: 20%;
+}
+.products_row {
+    margin-top: 28px !important;
+}
+a.view-all-products {
+    font-size: 26px;
+    color: #000;
+    text-decoration: underline;
+    margin-top: 40px;
+    display: inline-block;
+}
+.spacer--60 {
+    height: 60px;
+}
+
+/*-------  page new section ------------*/
+.profile_links .nav-link.active {
+    background: #000;
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+    border: 2px solid #000;
+    transition: 0.3s;
+}
+.profile_links .nav-link.active:hover {
+    border: 2px solid;
+    background: #fff;
+    color: #000;
+}
+.card-header h5 {
+    font-size: 19px;
+    font-weight: 600;
+}
+.product-page img {
+ min-height:250px;
+ object-fit:cover;
+}
+.user-images img {
+    object-fit: cover;
+    /* height: 76px; */
+    border-radius: 5px;
+    margin-right: 8px;
+    box-shadow: 0px 8px 6px #ccc;
+}
+.user_name_data {
+    margin-top: 26px;
+    padding: 0;
+}
+/***  3-4-2020 ***/
+.contact-number {
+    margin: 10px 0px;
+}
+.contact-number h5 {
+    margin-bottom: 0px;
+}
+    .contact-number a {
+        font-size: 17px;
+        margin: 0 17px 0px;
+        color: #000;
+        line-height: 26px;
+
+    }
+.allfields {
+    text-align: center;
+}
+.terms_conditions label a {
+    display: inline !important;
+    padding: 0;
+}
+.terms_conditions label {
+    display: inline-block;
+}
+.terms_conditions input {
+    width: auto;
+    height: auto !important;
+}
+.terms_conditions label {
+    display: inline-block;
+    cursor: pointer;
+}
+/***  3-4-2020 ***/
+
+.heading_content {
+    font-size: 40px;
+   /** font-family: "Barlow", Sans-serif; ***/
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 0px 40px 0;
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+.main_menu img {
+    max-width:74%;
+}
+.main_menu.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+}
+.header-banner {
+    margin-top: 106px;
+}
+.top-content p  {
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-style: italic;
+    margin: 22px 0px;
+}
+.search_form > div {
+    margin-bottom: 30px;
+}
+.top-content h2  {
+    font-size: 30px;
+    font-family: 'Georgia';
+    font-weight: bold;
+    
+}
+.top-content h3 {
+    font-size: 22px;
+    margin: 30px 0px !important;
+    font-weight: bold;
+}
+.seach_login a {
+    color: #fff;
+    background: #e29300;
+    display: inline-block;
+    height: 45px;
+    margin: 19px 9px;
+    line-height: 41px;    
+    border-radius: 5px;   
+    min-width: 111px;
+}
+.search_form {
+    margin: 26px 0px;
+}
+.search_form input {
+    border-radius: 50px;
+    border: solid 1px #ccc;
+    min-height: 44px;
+}
+.search_form button {
+    border-radius: 50px;
+    height: 45px;
+    width: 140px;
+}
+.blue-bg {
+    background-color: #469795;
+    padding:40px 0px 103px;
+    margin: 50px 0px;
+}
+.blue-bg h3 {
+    font-size: 44px;
+   /** font-family: "Barlow", Sans-serif; ***/
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.blue-bg p {
+    font-family: 'Georgia';  
+    font-style: italic;
+    margin:10px 0 10px;
+}
+.create_account {
+    padding: 60px 0px;
+}
+.create_account h3 {
+    font-size: 40px;
+   /** font-family: "Barlow", Sans-serif; ***/
+    font-weight: 600;
+    padding: 30px 0px;
+}
+.create_account p {
+    margin: 20px 0px;
+    font-family: 'Georgia';     
+}
+.contact_form {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+.contact_form label {
+    font-family: 'Georgia';  
+}
+.contact_form button  {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer {
+    padding: 30px 0;
+}
+.footer img {
+    max-width: 27%;
+}
+.footer p {
+    color:#fff;
+   /** font-family: "Barlow", Sans-serif; ***/
+    font-size: 11px;
+    margin: 0px ;
+}
+.create_account img {
+    margin-top: 20px;
+}
+
+/********* login and sign up pages *******/
+.inner-pages {
+    margin-top:106px;
+}
+.login_signup form {
+    border: 0px solid #000000;
+    padding: 30px;
+    margin: -72px 0px 60px;
+    box-shadow: 0px 0px 14px #40404091;
+    border-radius: 5px;
+    background: #fff;
+}
+.login_signup input {
+    height: 50px;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #000;
+}
+.login_signup button, .login_signup a {
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 15px 0px;
+    display: inline-block !important;
+}
+.login_signup a {
+    margin:0px;
+    display: inline-block;
+}
+a.forget_pass {
+    padding: 0;
+    display: inline !important;
+}
+
+.divider {
+    position: relative;
+    margin: 20px 0px !important;
+}
+.divider:after {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    background: #cacaca;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 12px;
+}
+.divider span {
+    background: #fff;
+    position: relative;
+    z-index: 9;
+    padding: 2px 5px;
+    color: #cacaca;
+}
+.login-bg {
+    
+    padding: 50px 0px;
+    color: #fff;
+    min-height: 230px;
+    background: #469795 url(../images/background-pt.png);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+.login-bg h2 {
+    font-size: 46px;
+}
+/********* login and sign up pages *******/
+
+a.visit_profile {
+    padding: 9px 25px;
+    margin: 0 10px;
+    border: 1px solid #479796;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    /* color: #000; */
+}
+a.visit_profile:hover {
+    background: #479796;
+    color: #fff;
+}
+/******** responsive *******/
+@media screen and (min-width:1900px) { 
+    section.header-banner img {
+        width: 100%;
+    }
+    .create-memories {
+        background: #fefefe url(../images/memories.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        padding: 112px 0 57px; 
+        background-position: right -51px bottom;
+        margin: 0px 0;
+    }
+} 
+@media screen and (min-width:1600px) { 
+    p.special_content {
+        padding: 0;
+        display: block;
+        width: 255px;
+        text-align: center;
+    }
+    .special-offer {
+        position: absolute;
+        right: 349px;
+    }
+    .special-offer img {
+        width: 72%;
+    }
+    .create-memories {
+        background: #fefefe url(../images/memories.png);
+        background-repeat: no-repeat;
+        background-size: 55%;
+        padding: 112px 0 57px; 
+        background-position: right -51px bottom;
+        margin: 0px 0;
+    }
+    .products_row .column-5 {
+        max-width: 20%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1366px)  {  
+    .special-offer img {
+        max-width: 50%;
+    }
+    .special-offer {
+        position: absolute;
+        right: 273px;
+        text-align: center;
+        top: 137px;
+
+    }
+    p.special_content {
+        width: 209px;
+        margin: 6px auto !important;
+        padding: 0;
+    }
+}
+@media screen and (max-width:1360px) { 
+    .special-offer img {
+        max-width: 50%;
+    }
+    .special-offer {
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 171px;
+
+    }
+    p.special_content {
+        width: 256px;
+        margin: 6px auto !important;
+        padding: 0;
+    }
+   
+    .create-memories {
+        background: #fefefe url(../images/memories.png);
+        background-repeat: no-repeat;
+        background-size: 83%;
+        padding: 112px 0 57px;
+        background-position: right -51px bottom;
+        margin: 0px 0;
+    }
+    .products_row .column-5 {
+        max-width: 20%;
+    }
+} 
+@media screen and (max-width:992px) { 
+    .special-offer img {
+        max-width: 50%;
+    }
+    .special-offer {
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 20px;
+
+    }
+    p.special_content {
+        width: 176px;
+        margin:6px auto !important;
+    }
+    p.special_content {
+        font-size: 16px;
+        margin: 36px 0;
+    }
+    img.img-fluid.special_image {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .products_row .column-5 {
+        max-width: 20%;
+    }
+    .main_menu.navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 11px !important;
+    }
+    .heading--b.blue-bg {
+        padding: 64px 0px;
+        margin-bottom: 0;
+    }
+    .heading--b h2 {
+        font-size: 32px;
+        margin-bottom: 0;
+        padding: 0;
+        letter-spacing: 2px;
+        line-height: 55px;
+    }
+    .spacer--60 {
+        height: 20px;
+    }
+    .section-title {
+        font-size: 30px;
+        margin-top: 28px;
+        margin-bottom: 30px;
+    }
+    .share-memories {
+        padding: 50px 0;
+    }
+    .honourthepast {
+        padding: 15px 0;
+    }
+    section.build-legacy {
+        padding: 40px 0 40px;
+    }
+    section.build-legacy p {
+        margin-bottom: 40px;
+    }
+    .create-memories {
+        background: #fefefe url(../images/memories.png);
+        background-repeat: no-repeat;
+        background-size: 89%;
+        padding: 37px 0;
+        background-position: right -78px bottom;
+        margin: 0px 0;
+    }
+    
+
+    
+    .connect-family {
+        padding: 40px 0;
+        color: #fff;
+    }
+
+    .section-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0;
+        
+    word-break: break-word;
+    }
+    a.cta-btn {
+        font-size: 18px;
+    border-radius: 13px;
+    line-height: 27px;
+    min-height: 45px;
+    margin-top: 13px;
+    }
+    .main_menu .container {
+        margin: 0;
+        max-width: 100%;
+    }
+    .main_menu.navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 12px;
+    }
+    .header-banner {
+        margin-top: 51px;
+    }
+    .search_form {
+        margin: 26px 0px;
+        max-width: 100%;
+    }
+    .create_account h3 {
+        font-size: 33px;
+       /** font-family: "Barlow", Sans-serif; ***/
+        font-weight: 600;
+        padding: 0 0px 20px;
+    }
+    .contact_form {
+        background-color: #f8f9fa;
+        padding: 35px 0;
+    }
+    .create_account {
+        padding: 0px 0px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+    p.special_content {
+        font-size: 16px;
+        margin: 36px 0;
+    }
+    img.img-fluid.special_image {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .products_row .column-5 {
+        max-width: 50%;
+    }
+    .heading--b.blue-bg {
+        padding: 40px 0px;
+        margin-bottom: 0;
+    }
+    .heading--b h2 {
+        font-size: 32px;
+        margin-bottom: 0;
+        padding: 0;
+        letter-spacing: 2px;
+        line-height: 55px;
+    }
+    .section-title {
+        font-size: 32px;
+        margin-top: 28px;
+        margin-bottom: 30px;
+    }
+    .share-memories {
+        padding: 50px 0;
+    }
+    .honourthepast {
+        padding: 15px 0;
+    }
+    section.build-legacy {
+        padding: 5px 0 30px;
+    }
+    section.build-legacy p {
+        margin-bottom: 40px;
+    }
+    .create-memories {
+        background: #fefefe url(../images/memories.png);
+        background-repeat: no-repeat;
+        background-size: 89%;
+        padding: 37px 0;
+        background-position: right -78px bottom;
+        margin: 0px 0;
+    }
+    
+
+    
+    .connect-family {
+        padding: 40px 0;
+        color: #fff;
+    }
+
+    .section-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0;
+        
+    word-break: break-word;
+    }
+    a.cta-btn {
+        font-size: 18px;
+    border-radius: 13px;
+    line-height: 27px;
+    min-height: 45px;
+    margin-top: 13px;
+    }
+    .main_menu .container {
+        margin: 0;
+        max-width: 100%;
+    }
+    .main_menu.navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 12px;
+    }
+    .header-banner {
+        margin-top: 51px;
+    }
+    .search_form {
+        margin: 26px 0px;
+        max-width: 100%;
+    }
+    .create_account h3 {
+        font-size: 33px;
+       /** font-family: "Barlow", Sans-serif; ***/
+        font-weight: 600;
+        padding: 0 0px 20px;
+    }
+    .contact_form {
+        background-color: #f8f9fa;
+        padding: 35px 0;
+    }
+    .create_account {
+        padding: 0px 0px;
+    }
+    .special-offer img {
+        max-width: 50%;
+    }
+    .special-offer {
+        position: absolute;
+        right: 0;
+        text-align: center;
+    }
+    p.special_content {
+        width: 227px;
+        margin: 6px auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .m_view p:last-child {
+        word-break: break-word;
+    }
+    .m_view .special_content {
+        text-align: center;
+    }
+    .m_hide {
+        display: none;  
+    }
+    .m_view {
+        display: block !important;
+    }
+    p.special_content.m_view {
+        text-align: center;
+    }
+    .special-offer.m_view {
+        display: block;
+        position: relative;
+    }
+    .special-offer {
+       display: none;
+    }
+    .d-flex.align-items-center.flex-wrap.button-section-offer {
+        text-align: center;
+        justify-content: center;
+    }
+    .special-offer img {
+        max-width: 62%;
+        margin: 0 auto;
+        display: block;
+    }
+    p.special_content {
+        font-size: 16px;
+        margin: 36px 0;
+    }
+    img.img-fluid.special_image {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .products_row .column-5 {
+        max-width: 100%;
+    }
+    a.view-all-products {
+        font-size: 19px;
+        color: #000;
+        text-decoration: underline;
+        margin-top: 0;
+        display: block;        
+        margin: 0 auto;
+    }
+    .owl-nav button {
+        background: black !important;
+        width: 30px;
+        font-size: 29px !important;
+        color: #fff !important;
+        line-height: 48px !important;
+    }
+    .owl-nav {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 27%;
+        z-index: 9;
+    }
+    .heading--b.blue-bg {
+        padding: 40px 0px;
+        margin-bottom: 0;
+    }
+    .heading--b h2 {
+        font-size: 32px;
+        margin-bottom: 0;
+        padding: 0;
+        letter-spacing: 2px;
+        line-height: 55px;
+    }
+    .section-title {
+        font-size: 25px;
+        margin-top: 28px;
+        margin-bottom: 30px;
+    }
+    .share-memories {
+        padding: 50px 0;
+    }
+    .honourthepast {
+        padding: 15px 0;
+    }
+    section.build-legacy {
+        padding: 5px 0 30px;
+    }
+    section.build-legacy p {
+        margin-bottom: 40px;
+    }
+    .create-memories {
+    background-image: none !important;
+    padding: 37px 0;
+
+    }
+    .connect-family {
+        padding: 40px 0;
+        color: #fff;
+    }
+    a.visit_profile {
+        margin: 7px 0px ;
+    }
+    p.special_content {
+        margin-top: 22px !important;
+        word-break: break-word;
+        width: 100%; 
+    }
+    .section-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0;
+        width: 100%;
+        word-break: break-word;
+    }
+    a.cta-btn {
+    font-size: 18px;
+    border-radius: 13px;
+    line-height: 27px;
+    min-height: 45px;
+    margin: auto;
+    display: block;
+    width: 67%
+
+    }
+    .col-12.row.my-4.profile_links {
+        width: 100%;
+        margin: 0 auto;
+            margin-top: 0px;
+            margin-bottom: 0px;
+    }
+    .card-head .fa {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+    .card-head .nav-link {
+        text-align: center;
+        line-height: 19px;
+    }
+.blue-bg {
+margin: 50px 0px 0;
+}
+.col-12.col-md-4.col-lg-4.text-left label {
+    display: none;
+}
+.create_account {
+    padding: 0 0px;
+}
+.blue-bg h3 {
+    font-size: 30px;
+}
+.create_account h3 {
+    font-size: 30px;
+}
+  .search_form button {
+    border-radius: 50px;
+    height: 45px;
+    margin: 0 auto;
+    width: 140px;
+    display: block;
+}
+    .header-banner {
+        margin-top: 55px !important;
+    } 
+    .main_menu img {
+        max-width: 100%;
+    }
+    .inner-pages {
+        margin-top: 60px;
+    }
+    .login-bg h2 {
+        font-size: 40px;
+    }
+    .col {
+        width: 100%;
+        flex-basis: 100%;
+        margin: 10px 0px;
+    }
+    .login_signup form {
+        padding: 30px 20px;
+        margin-top: 60px;
+
+    }
+
+    .login-bg {
+        min-height: 215px;
+    }
+    .main_menu li a span {
+        display: none;
+    }
+    
+    
+}
+.login_signup .col-12 {
+    position: relative;
+}
+.login_signup .row {
+    position: relative;
+}
+.allfields {
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    font-weight: 500;
+}   
+.firstname {
+    font-size: 14px;
+}       
+.messageClass {
+    position: absolute;
+    bottom: -17px;
+    font-size: 14px !important;
+    color: red;
+    left: 12px;
+}
+.login-page .messageClass {
+    top: 17px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 27px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+
