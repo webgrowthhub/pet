@@ -8,21 +8,22 @@ body p, body li, body span {
 .user-images {
     display: flex;
 }
-
+img {
+    max-width: 100%;
+}
 .margin_top {
     margin-top: 0px !important;
 }
-img.img-fluid.special_image {
-    margin-top: -38px;
-    margin-bottom: 26px;
-}
+
 p.special_content {
     font-size: 13px;
 }
-
+img.pet_image {
+    max-width: 80%;
+}
 .special-offer {
-    position: absolute;
-    right: 145px;
+    text-align: center;
+    padding-right: 84px;
 }
 section.create-memories.section-text {
     position: relative;
@@ -125,7 +126,7 @@ section.create-memories.section-text {
     color: #449690;
 }
 .create-memories {
-    background: #fefefe url(../images/memories.png);
+    /* background: #fefefe url(../images/pet-bg.jpg); */
     background-repeat: no-repeat;
     background-size: 77%;
     padding: 120px 0;
@@ -524,26 +525,35 @@ a.visit_profile:hover {
     }
 } 
 @media screen and (max-width:1600px), (min-width:1600px) { 
+    p.special_content span {
+        display: block;
+        margin-top: 8px;
+        line-height: 23px;
+    }
     p.special_content {
         padding: 0;
         display: block;
-        width: 255px;
+      
         text-align: center;
     }
-    .special-offer {
+    /* .special-offer {
         position: absolute;
-        right: 0;
+        right: 40px;
         text-align: center;
-        top: 40px;
-    }
+        width: 251px;
+        top: 167px;
+        z-index: 1;
+    } */
     .special-offer img {
-        width: 60%;
+      
+        width: 40%;
+        margin-bottom: 12px;
     }
     .create-memories {
-        background: #fefefe url(../images/memories.png);
+        /* background: #fefefe url(../images/pet-bg.jpg); */
         background-repeat: no-repeat;
-        background-size: 55%;
-        padding: 112px 0 57px; 
+        background-size: contain;
+        padding: 200px 0 57px; 
         background-position: right -51px bottom;
         margin: 0px 0;
     }
@@ -552,55 +562,73 @@ a.visit_profile:hover {
     }
 }
 @media screen and (max-width:1499px)  {  
-    .special-offer {
+    /* .special-offer {
         position: absolute;
         right: 9px;
-        width: 303px;
+        width: 225px;
         text-align: center;
-        top: 58px;
-    }
+        top: 146px;
+        z-index: 9;
+    } */
 }
 @media screen and (min-width:1024px) and (max-width:1366px)  {  
+    p.special_content span {
+        display: block;
+        margin-top: 3px;
+        line-height: 20px;
+    }
     .special-offer img {
         max-width: 50%;
     }
-    .special-offer {
+    /* .special-offer {
         position: absolute;
         right: 273px;
         text-align: center;
         top: 137px;
 
-    }
-    p.special_content {
+    } */
+    /* p.special_content {
         width: 209px;
         margin: 6px auto !important;
         padding: 0;
-    }
+    } */
 }
 @media screen and (max-width:1360px) { 
-    .special-offer img {
+    .section-title {
+        font-size: 40px;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+    /* img.img-fluid.special_image {
+        margin-bottom: 0px;
         max-width: 50%;
+    } */
+    .special-offer img {
+        max-width: 35%;
+       
     }
-    .special-offer {
+    /* .special-offer {
         position: absolute;
-    right: 20px;
-    text-align: center;
-    top: 124px;
-}
+        right: 0;
+        text-align: center;
+        top: 153px;
+        z-index: 9;
+} */
 
-    }
+    
     p.special_content {
-        width: 256px;
+       
         margin: 6px auto !important;
         padding: 0;
+        font-size: 13px;
     }
    
     .create-memories {
-        background: #fefefe url(../images/memories.png);
+        /* background: #fefefe url(../images/pet-bg.jpg); */
         background-repeat: no-repeat;
-        background-size: 83%;
-        padding: 112px 0 57px;
-        background-position: right -51px bottom;
+        background-size: contain;
+        padding: 118px 0 57px;
+        background-position: right center;
         margin: 0px 0;
     }
     .products_row .column-5 {
@@ -610,18 +638,21 @@ a.visit_profile:hover {
     
 } 
 @media screen and (max-width:992px) { 
+    img.pet_image {
+        max-width: 100%;
+    }
     .special-offer img {
         max-width: 50%;
     }
-    .special-offer {
+    /* .special-offer {
         position: absolute;
-        right: 0;
+        right: 45px;
         text-align: center;
-        top: 20px;
-
-    }
+        top: 83px;
+        width: 260px;
+    } */
     p.special_content {
-        width: 176px;
+       
         margin:6px auto !important;
     }
     p.special_content {
@@ -671,7 +702,7 @@ a.visit_profile:hover {
         margin-bottom: 40px;
     }
     .create-memories {
-        background: #fefefe url(../images/memories.png);
+        /* background: #fefefe url(../images/pet-bg.jpg); */
         background-repeat: no-repeat;
         background-size: 89%;
         padding: 37px 0;
@@ -734,10 +765,12 @@ a.visit_profile:hover {
         font-size: 16px;
         margin: 36px 0;
     }
-    img.img-fluid.special_image {
+    /* img.img-fluid.special_image {
         margin-top: 0;
         margin-bottom: 0;
-    }
+        max-width: 20%;
+        
+    } */
     .products_row .column-5 {
         max-width: 50%;
     }
@@ -770,7 +803,7 @@ a.visit_profile:hover {
         margin-bottom: 40px;
     }
     .create-memories {
-        background: #fefefe url(../images/memories.png);
+        /* background: #fefefe url(../images/pet-bg.jpg); */
         background-repeat: no-repeat;
         background-size: 89%;
         padding: 37px 0;
@@ -778,7 +811,11 @@ a.visit_profile:hover {
         margin: 0px 0;
     }
     
-
+    .special-offer {
+        padding: 0;
+        top: 10px;
+        width:100%;
+    }
     
     .connect-family {
         padding: 40px 0;
@@ -830,11 +867,11 @@ a.visit_profile:hover {
     .special-offer img {
         max-width: 50%;
     }
-    .special-offer {
+    /* .special-offer {
         position: absolute;
         right: 0;
         text-align: center;
-    }
+    } */
     p.special_content {
         width: 227px;
         margin: 6px auto;
@@ -842,6 +879,7 @@ a.visit_profile:hover {
 }
 
 @media screen and (max-width:767px) {
+   
     .m_view p:last-child {
         word-break: break-word;
     }
@@ -859,6 +897,7 @@ a.visit_profile:hover {
     }
     .special-offer.m_view {
         display: block;
+        padding: 0;
         position: relative;
     }
     .special-offer {
