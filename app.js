@@ -23,6 +23,73 @@ app.use('/', indexRouter);
 app.use('/home', indexRouter);
 app.use('/users', usersRouter);
 
+app.post('/contctus', (req,res)=>{  
+  console.log(req.body);
+  if(req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
+    return res.send({"responseCode" : 1,"responseDesc" : "Please select captcha"});
+  }
+
+  // Put your secret key here.
+  var secretKey = "6LeyAyAaAAAAAOLGSp7rhGiLelo2ZuXVB_UW5pm-";
+  // req.connection.remoteAddress will provide IP address of connected user.
+  var verificationUrl = "https://www.google.com/recaptcha/api/siteverify?secret=" + secretKey + "&response=" + req.body['g-recaptcha-response'] + "&remoteip=" + req.connection.remoteAddress;
+  
+
+  request(verificationUrl,function(error,response,body) {
+    body = JSON.parse(body);
+    // console.log(body);
+    // Success will be true or false depending upon captcha validation.
+    if(body.success !== undefined && !body.success) {
+      return res.json({"responseCode" : 1,"responseDesc" : "Failed captcha verification"});
+    }
+  //  return res.json({"responseCode" : 0,"responseDesc" : "Sucess"});
+  });
+
+
+  var name=req.body.name;
+  var email = req.body.email;
+  var message= req.body.message;
+
+  var html = "<div style='text-align:center;width:100%;margin:20px 0px;float:left;'><img src='https://emeraldparkmemorial.com.au/images/logo.png' style='width:250px;' /></div><br /> ";
+
+ html+= "Name: "+name+"<br>\n<br>\n";
+ html+= "Email: "+email+"<br>\n<br>\n";
+ html+= "Message: "+message+"<br>\n<br>\n";
+
+ 
+
+   // Generate test SMTP service account from ethereal.email
+   // Only needed if you don't have a real mail account for testing
+   let testAccount =  nodemailer.createTestAccount();
+ 
+   // create reusable transporter object using the default SMTP transport
+   var transporter = nodemailer.createTransport({
+     service: 'gmail',
+    secure: false, // true for 465, false for other ports
+     debug:true,
+     logger:true,
+     auth: {
+         user: 'info@emeraldparkmemorial.com.au',
+         pass: 'Bigfatdog1a!'
+     }
+     });
+ 
+  //  send mail with defined transport object
+   let info =  transporter.sendMail({
+     from: email, // sender address
+     to: "info@emeraldparkmemorial.com.au", // list of receivers
+     subject: "Contact Us", // Subject line
+     text: "Contact Us", // plain text body
+     html: html // html body
+   });
+ 
+ 
+  return res.json({"responseCode" : 0,"responseDesc" : "Sucess"});
+
+  //  return   res.redirect("/");
+    
+});
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
