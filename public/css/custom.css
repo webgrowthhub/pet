@@ -880,6 +880,9 @@ a.visit_profile:hover {
 
 @media screen and (max-width:767px) {
    
+    .engraving_section {
+        margin-top: 90px;
+    }
     .m_view p:last-child {
         word-break: break-word;
     }
