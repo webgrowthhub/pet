@@ -21,24 +21,23 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-// var https_options = {
-//   key: fs.readFileSync(path.join(__dirname, "../ssl2/emeraldparkmemorial_com_au.key")),
-//   cert: fs.readFileSync(path.join(__dirname, "../ssl2/emeraldparkmemorial_com_au.crt")),
-//   ca: [
-//   fs.readFileSync(path.join(__dirname, '../ssl2/AddTrustExternalCARoot.crt')),
-//   fs.readFileSync(path.join(__dirname, '../ssl2/SectigoRSADomainValidationSecureServerCA.crt'))
-//   ]
-//   };
+var https_options = {
+  key: fs.readFileSync(path.join(__dirname, "../ssl2/emeraldparkpetmemorial_com_au.key")),
+  cert: fs.readFileSync(path.join(__dirname, "../ssl2/emeraldparkpetmemorial_com_au.crt")),
+  ca: [
+  fs.readFileSync(path.join(__dirname, '../ssl2/emeraldparkpetmemorial_com_au.ca-bundle')),
+  ]
+  };
 
-// var server = https.createServer(https_options,app);
+var server = https.createServer(https_options,app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
 
-// server.listen(port);
-// server.on('error', onError);
-// server.on('listening', onListening);
+server.listen(port);
+server.on('error', onError);
+server.on('listening', onListening);
 var http = require('http');
 http.createServer(app).listen(80);
 
