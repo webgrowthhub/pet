@@ -19,6 +19,15 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+app.use(function(request, response, next) {
+
+  if (!request.secure) {
+     return response.redirect("https://" + request.headers.host + request.url);
+  }
+next();
+})
+
 app.use('/', indexRouter);
 app.use('/home', indexRouter);
 app.use('/users', usersRouter);
